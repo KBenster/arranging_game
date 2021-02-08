@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Arranging Game</title>        
+    </head>
+    <body>
+        <h1>Arranging Puzzle Game</h1>
+
+        <h2>Shuffle the numbers into the right order</h2>
+
+        <!-- Linking to the main p5.js library, which allows your code to use all of the p5 functions that we have learned. Using this version while developing your code allows p5 to provide more Friendly Error Messages when you mess something up...-->
+        <script src="js/p5.js"></script>
+
+        <!-- Once your project is working completely, you can comment out the link to p5.js above, and instead link to this minified version. The minified version takes less space, and turns off Friendly Error Messages. This increases the speed of your program quite dramatically in some cases. -->
+        <!-- <script src="js/p5.min.js"></script> -->
+        
+        <!-- If you are going to use sound in your project, uncomment the line below this... -->
+        <!-- <script src="js/p5.sound.min.js"></script> -->
+
+        <!-- If you are going to use the collision detection library in your project, uncomment the line below this... -->
+        <!-- <script src="js/p5.collide2d.min.js"></script> -->
+    
+        <!-- Link to the JS file you are writing your program in. If you are writing a very large project, you can split these up into multiple files and link to all of them here. -->
+        <script src="sketch.js"></script>
+
+        <h6></h6>
+        <h4>Instructions:</h4>
+        <ul>
+            <li>Choose a Level (2 to 6).</li>
+            <li>The game board has blocks with numbers in it. Also there is a single "hole" that can be used for moving the blocks.</li>
+            <li>The objective of the game is to order the numbers using the "hole" for temporary movement.</li>
+            <li>Move blocks in a row by clicking on them. A block can be moved only if it is in the same row or column as the "hole".</li>
+            <li>You can move multiple blocks (in the same row or column as the "hole") by clicking the farthest block that you need to be moved.</li>
+        </ul>
+    </body>
+</html>
