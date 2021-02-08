@@ -1,3 +1,16 @@
+/* Feb 8
+ * Stephen Yang
+ * 2D-Grid Assignment
+ * 
+ * Extra for experts:
+ * 1. dealt with no solution case (the cases that shows up always have a solution)
+ * 2. move multiple blocks at the same time (must be in the same row or column)
+ * 3. button
+ * 4. drop down menu
+ * 
+ * I added in sound effects, but it is a little distracting to finish the game quickly. Therefore I removed it.
+ */
+
 let board = [];
 let n = 2;                   // how big the board is
 let button;                  // new game button
