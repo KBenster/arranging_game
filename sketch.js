@@ -57,7 +57,7 @@ function displayWonCanvas() {
     text("Congratulations you won!", 200, 85);
     fill("black");
     text("You did it in " + Math.floor(timer/60) + " secs with " + moves + " moves", 200, 120);
-    text("Your speed was " + Math.round(timer/60/moves*1000)/1000 + " moves/sec", 200, 155);
+    text("Your speed was " + Math.round(moves*1000*60/timer)/1000 + " moves/sec", 200, 155);
 }
 
 function setup() {
