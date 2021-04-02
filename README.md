@@ -1,4 +1,5 @@
-# Setting Up a Text Editor
+
+# Settting Up a Text Editor
 
 ## Required
 
